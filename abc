@@ -1,0 +1,33 @@
+git init
+git remote add origin <https://github.com/xbugz-bunny/abc.git>
+it remote add origin https://github.com/xbugz-bunny/my-repo.git
+git remote -v
+git push -u origin master
+git push -u origin main
+echo "This is the content of the text file 1" > fileone.txt
+echo "This is the content of the text file 2" > filetwo.txt
+echo "This is the content of the text file 3" > filethree.txt
+echo "This is the content of the text file 4" > filefour.txt
+echo "This is the content of the text file 5" > filefive.txt
+git add fileone.txt
+git add filetwo.txt
+git add filethree.txt
+git add filefour.txt
+git add filefive.txt
+git commit -m "Add fileone.txt"
+git commit -m "Add filetwo.txt"
+git commit -m "Add filethree.txt"
+git commit -m "Add filefour.txt"
+git commit -m "Add filefive.txt"
+git push origin main
+git branch roles
+git branch
+git checkout roles
+git checkout -b roles
+git add SCDroles.html
+git commit -m "Add SCDroles.html"
+git push origin roles
+git origin main
+git branch tools
+git branch
+
